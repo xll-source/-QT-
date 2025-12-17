@@ -1,0 +1,18 @@
+student表数据库:
+CREATE TABLE "student" (
+    "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT,
+    "age" integer,
+    "grade" integer,
+    "class" integer,
+    "studentid" integer,
+    "phone" TEXT,
+    "wechat" TEXT
+);
+
+username表数据库:
+CREATE TABLE username (
+    username TEXT,
+    password TEXT,
+    auth TEXT
+);
